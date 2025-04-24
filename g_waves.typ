@@ -169,12 +169,22 @@ Same way you can't write good code unless you know how the CPU works — you can
 
 = Future Directions
 
-This framework is promising but incomplete. Key areas for development include:
-- Mechanism of spacetime-wave generation and initial conditions.
-- Quantitative definitions of the wave ecosystem and stability criteria.
+This framework, proposing matter arises from dynamic spacetime (`Gravity` $->$ `Matter`) based on 'Movement' rather than 'Energy', requires significant further development. Key next steps include:
+- Develop a rigorous mathematical formalism for the "Gravity -> Matter" mechanism. This likely requires equations fundamentally different from the standard Einstein Field Equations (EFE), which describe the reverse causality (Matter -> Gravity).
+- Define a "Stress-Movement Tensor" ($T'_(mu nu)$) derived solely from momentum concepts (internal $p_i$, external $bold(P)$, emergent $m$) within this framework, replacing the standard energy-reliant stress-energy tensor $T_(mu nu)$ as the source term in adapted gravitational equations.
+- Clarify the role and value of the fundamental wave speed $v_"wave"$ within adapted relativistic equations (both gravitational and quantum), and determine its relationship to $c$ and other constants like $G$ and potentially $Lambda'$.
+- Reformulate quantum dynamics based on 'Movement' principles, replacing the foundational role of 'Energy' (and the Hamiltonian) in governing time evolution, interactions, and quantization.
+- Develop a quantum model where particles are represented as confined wave structures consistent with the emergent mass definition $m = frac(1, v_"wave") sqrt( (sum_i p_i)^2 - abs(bold(P))^2 )$. This model must explain quantized properties like spin and charge from the dynamics of these waves.
+- Establish quantitative criteria for the stability of these wave structures and link their properties (e.g., resonance lifetimes) to observed particle characteristics.
+- Identify unique, observable predictions or experimental signatures that could distinguish this framework from standard General Relativity and the Standard Model of particle physics.
+- Investigate plausible mechanisms for the initial generation and conditions of the fundamental spacetime waves proposed by this model.
+
+// This framework is promising but incomplete. Key areas for development include:
+// - Mechanism of spacetime-wave generation and initial conditions.
+// - Quantitative definitions of the wave ecosystem and stability criteria.
+// - Emergence of gauge symmetries, particle spin, and charge.
+// - Matching resonance lifetimes to observed particle lifetimes.
 // - Mathematical reconciliation with Einstein’s field equations.
-- Emergence of gauge symmetries, particle spin, and charge.
-- Matching resonance lifetimes to observed particle lifetimes.
 // - Observable signatures distinguishing this model from standard GR and quantum field theory.
 
 // = Illustrations
