@@ -10,13 +10,9 @@
   size: 12pt
 )
 
-// Heading setup (mimicking \titleformat{\section})
-// Sets numbering format like "1.", "2." for level 1 headings
 #set heading(level: 1, numbering: "1.")
-// Makes level 1 headings bold and slightly larger (adjust size as needed)
 #show heading.where(level: 1): it => block(text(weight: "bold", size: 1.2em, it.body))
 
-// --- Title Block ---
 #align(center)[
   #text(size: 1.728em, weight: "bold")[Gravitational Waves Are All You Need]
   #linebreak()
@@ -36,9 +32,6 @@
   April 19, 2025
 ]
 
-// --- Document Body ---
-
-// Use '= *Section Name*' for unnumbered sections (like \section*)
 = *Claim*
 
 The cause and effect of gravity is actually the opposite of what we currently believe. Matter does *not* cause spacetime to curve --- rather, the curvature of spacetime is what gives rise to matter.
@@ -59,13 +52,11 @@ Suddenly, everything simplifies. Each planet’s motion follows a common rule, e
 
 _The simpler the system of thinking, the closer it tends to be to the truth._
 
-// Use '= Section Name' for numbered sections
 = Let’s Build a Universe from Scratch
 
 Since this is a bottom-up approach, we’ll start from nothing.
 
 We have two choices:
-// Typst numbered list uses '- '
 - The universe behaves based on rules.
 - Or it doesn’t.
 
@@ -94,7 +85,6 @@ This "space" is made of something unknown, but we know it can ripple and create 
 I don’t know how these waves were created in the first place. Nobody does --- Not knowing how these waves are created is the same thing as saying "I do not know how the big bang happened" in the Standard Model. But we know they exist. So let’s continue.
 
 Now here’s the question:
-// Typst blockquote
 #quote[
   Do we need anything else to recreate the universe as we know it?
 ]
@@ -109,11 +99,8 @@ So instead of matter bending space...
   *Matter _is_ space --- trapped in a certain vibration.*
 ]
 
-// --- Added Equation and Explanation Start ---
-
 Quantitatively, the invariant mass ($m$) that emerges from such a system of confined waves can be understood through the relationship between the waves' internal momenta and the system's total momentum:
 
-// Display equation using Typst math syntax
 $ m = frac(1, v_"wave") sqrt( (sum_i p_i)^2 - abs(bold(P))^2 ) $
 
 In this equation:
@@ -123,20 +110,20 @@ In this equation:
 + $bold(P)$ is the _vector_ sum of the momenta of all constituent waves ($bold(P) = sum_i bold(p)_i$), representing the total momentum of the system as a whole.
 + $v_"wave"$ is the characteristic propagation speed of these fundamental waves (or spacetime fluctuations).
 
-// --- Added Simplification and Comparison Start ---
 Notice that when the system is observed *at rest*, its total momentum $bold(P)$ is zero. In this specific, simplified case, the invariant mass becomes:
 
 $ m_"rest" = frac(sum_i p_i, v_"wave") $
 
+This form highlights a core idea of this framework: invariant mass arises directly from confined internal *movement*. The term $sum_i p_i$ quantifies this total internal movement (sum of momentum magnitudes).
+
+It's often said that substituting 'Energy' with '*Movement*' makes more physical intuition. In this view, the concept of 'Energy' itself is perhaps unnecessary or doesn't represent a fundamental physical quantity. Standard physics uses $m = E/c^2$, relating mass to Energy. However, this framework suggests it's more fundamental to see mass ($m_"rest"$) as directly proportional to the total internal *movement* ($sum_i p_i$) scaled by the fundamental wave speed ($v_"wave"$). Mass is inertia, and inertia is resistance to changes in movement, so it arguably makes more sense that it originates from internal movement rather than an abstract concept called 'Energy'.
+
 This form makes it easier to see the direct relationship between the internal "agitation" (represented by $sum_i p_i$) and the resulting rest mass. It also provides a clear parallel to Einstein's $m = E/c^2$: in this framework, the sum of internal momentum magnitudes takes the place conceptually similar to internal energy ($E$), and $v_"wave"$ is the relevant fundamental speed.
-// --- Added Simplification and Comparison End ---
 
 A key point here is the nature of $v_"wave"$. While current physics, particularly relativity, identifies the speed of light ($c$) as the maximum speed for energy/information transfer (and the speed of gravitational waves), this framework defines $v_"wave"$ as the inherent speed of the waves constituting matter. If experiments confirm gravitational waves travel at $c$, then $v_"wave"$ would equal $c$. However, the framework itself defines mass in terms of *whatever this fundamental wave speed is*, without *a priori* requiring it to be exactly $c$.
 
-// --- Added Equation and Explanation End ---
 
 This model explains:
-// Typst bulleted list uses '+ '
 + *Why mass distorts spacetime*: mass is simply spacetime structure itself.
 // + *Why energy and mass are equivalent*: they are different facets of wave dynamics.
 + *Why matter appears stable*: stable resonance patterns.
@@ -183,7 +170,6 @@ Same way you can't write good code unless you know how the CPU works — you can
 = Future Directions
 
 This framework is promising but incomplete. Key areas for development include:
-// Numbered list
 - Mechanism of spacetime-wave generation and initial conditions.
 - Quantitative definitions of the wave ecosystem and stability criteria.
 // - Mathematical reconciliation with Einstein’s field equations.
@@ -192,10 +178,6 @@ This framework is promising but incomplete. Key areas for development include:
 // - Observable signatures distinguishing this model from standard GR and quantum field theory.
 
 // = Illustrations
-
-// Typst figures with images and captions
-// Assuming image files are in the same directory or a specified path
-// Widths are converted from \textwidth fractions to percentages
 
 #figure(
   image("2D.png", width: 80%),
