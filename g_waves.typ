@@ -90,6 +90,20 @@ Now here’s the question:
 ]
 Surprisingly, maybe not.
 
+= Interaction Requires Continuity
+
+In order for anything to be continuous, it has to interact with itself. If it didn't interact with itself ---even minimally--- then it would then it would be like isolated point just floating next to each other, not forming a real "whole".
+
+If that is the case, then the opposite must be true as well! If something is interacting with something else, they HAVE to be continuous.
+
+I know that my brain may not be capable of greater comprehension, but I can NOT see a counter-example...
+
+If two regions of "space" were truly disjoint ---with not common fabric--- _nothing_ could cross the gap. Causation demands a bridge, and a bridge demands continuity.
+
+Therefore, "space" and "matter" are not seperate species; they are phases of one connected ocean.
+
+This continuity principle is more than just a philosophical claim: it anchors the causal reversal claimed here. If curvature-waves (gravity) are already the universal fabric, then stable knots in that fabric (matter) follow inevitably. Gravity --> Matter isn't merely plausible --- it is required once continuity is acknowledged.
+
 = Matter and Mass: Stable Wave Structures
 
 I propose that particles are stable wave patterns --- like resonance inside a drum or a photon bouncing inside a mirrored box.
@@ -178,16 +192,6 @@ This framework, proposing matter arises from dynamic spacetime (`Gravity` $->$ `
 - Establish quantitative criteria for the stability of these wave structures and link their properties (e.g., resonance lifetimes) to observed particle characteristics.
 - Identify unique, observable predictions or experimental signatures that could distinguish this framework from standard General Relativity and the Standard Model of particle physics.
 - Investigate plausible mechanisms for the initial generation and conditions of the fundamental spacetime waves proposed by this model.
-
-// This framework is promising but incomplete. Key areas for development include:
-// - Mechanism of spacetime-wave generation and initial conditions.
-// - Quantitative definitions of the wave ecosystem and stability criteria.
-// - Emergence of gauge symmetries, particle spin, and charge.
-// - Matching resonance lifetimes to observed particle lifetimes.
-// - Mathematical reconciliation with Einstein’s field equations.
-// - Observable signatures distinguishing this model from standard GR and quantum field theory.
-
-// = Illustrations
 
 #figure(
   image("2D.png", width: 80%),
