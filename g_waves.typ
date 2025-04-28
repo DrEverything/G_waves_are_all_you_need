@@ -9,6 +9,7 @@
   fill: white,
   size: 12pt
 )
+#show math.equation: set text(14pt)
 
 #set heading(level: 1, numbering: "1.")
 #show heading.where(level: 1): it => block(text(weight: "bold", size: 1.2em, it.body))
@@ -48,43 +49,43 @@ Imagine the geocentric model of the cosmos back in the day. How did people calcu
 
 Now, imagine someone comes along and shifts the narrative: "The planets orbit the Sun."
 
-Suddenly, everything simplifies. Each planet’s motion follows a common rule, enabling more straightforward predictions and guiding further discoveries. This example suggests that adopting a simpler explanatory framework can bring us closer to fundamental truths.
+Suddenly, everything simplifies. Each planet's motion follows a common rule, enabling more straightforward predictions and guiding further discoveries. This example suggests that adopting a simpler explanatory framework can bring us closer to fundamental truths.
 
 _The simpler the system of thinking, the closer it tends to be to the truth._
 
-= Let’s Build a Universe from Scratch
+= Let's Build a Universe from Scratch
 
-Since this is a bottom-up approach, we’ll start from nothing.
+Since this is a bottom-up approach, we'll start from nothing.
 
 We have two choices:
 - The universe behaves based on rules.
-- Or it doesn’t.
+- Or it doesn't.
 
-If it doesn’t follow any rules, you might say, "With infinite time, randomness might produce something complex anyway --- like a monkey on a typewriter eventually writing Nietzsche."
+If it doesn't follow any rules, you might say, "With infinite time, randomness might produce something complex anyway --- like a monkey on a typewriter eventually writing Nietzsche."
 
 But hold on --- if there are no rules, then there's no reason. And without reason, you can't even _reason_ about anything --- not even that statement.
 
-So let’s go with the first option: the universe behaves based on rules.
+So let's go with the first option: the universe behaves based on rules.
 
 = Rules Alone Are Not Enough
 
-We know from from computational theory --- Turing machines, and cellular automata --- that the *specific* rules don’t necessarily matter --- simple systems can create infinite complexity.
+We know from from computational theory --- Turing machines, and cellular automata --- that the *specific* rules don't necessarily matter --- simple systems can create infinite complexity.
 
-But there’s a catch.
+But there's a catch.
 
-Take Conway’s Game of Life. It’s Turing complete. It can create all kinds of complexity. But... it’s fragile. Most starting configurations fizzle out into noise or stillness. It doesn’t necessarily _evolve_.
+Take Conway's Game of Life. It's Turing complete. It can create all kinds of complexity. But... it's fragile. Most starting configurations fizzle out into noise or stillness. It doesn't necessarily _evolve_.
 
 So we need a system that not only follows rules, but also encourages persistent interaction.
 
-= Let’s Add Space
+= Let's Add Space
 
-Let’s throw in something --- call it *Space*.
+Let's throw in something --- call it *Space*.
 
-This "space" is made of something unknown, but we know it can ripple and create waves. Let’s say those waves follow the same basic rules that observable waves follow today.
+This "space" is made of something unknown, but we know it can ripple and create waves. Let's say those waves follow the same basic rules that observable waves follow today.
 
-I don’t know how these waves were created in the first place. Nobody does --- Not knowing how these waves are created is the same thing as saying "I do not know how the big bang happened" in the Standard Model. But we know they exist. So let’s continue.
+I don't know how these waves were created in the first place. Nobody does --- Not knowing how these waves are created is the same thing as saying "I do not know how the big bang happened" in the Standard Model. But we know they exist. So let's continue.
 
-Now here’s the question:
+Now here's the question:
 #quote[
   Do we need anything else to recreate the universe as we know it?
 ]
@@ -144,7 +145,7 @@ This model explains:
 
 = Matter Is an Ecosystem
 
-Matter in this view is an ecosystem. It cannot exist in isolation; matter can't exist in a vacuum. It requires an _environment_ --- a wave ecosystem that sustains its structure. Just like humans need Earth’s biosphere to survive, matter needs the right "wave biosphere" to exist. This perspective leads naturally to explanations of matter–antimatter asymmetry and dark matter.
+Matter in this view is an ecosystem. It cannot exist in isolation; matter can't exist in a vacuum. It requires an _environment_ --- a wave ecosystem that sustains its structure. Just like humans need Earth's biosphere to survive, matter needs the right "wave biosphere" to exist. This perspective leads naturally to explanations of matter--antimatter asymmetry and dark matter.
 
 = Why Matter and Not Antimatter? Why Dark Matter?
 
@@ -152,14 +153,14 @@ If each particle depends on a very specific wave ecosystem, then it makes sense 
 
 This also hints at what dark matter might be:
 #quote[
-  _Matter with a different wave ecosystem --- one that doesn’t interact electromagnetically with ours, but still curves space… so we notice its gravity._
+  _Matter with a different wave ecosystem --- one that doesn't interact electromagnetically with ours, but still curves space... so we notice its gravity._
 ]
 
 = Radioactivity: Pressure from Frequency Mismatch
 
-Let’s say a stable wave pattern (a "particle") lives in harmony with its environment. But what if its internal frequency gets thrown out of sync?
+Let's say a stable wave pattern (a "particle") lives in harmony with its environment. But what if its internal frequency gets thrown out of sync?
 
-Now the inner wave pushes harder than the environment can contain --- just like a balloon losing air. The particle "leaks" energy, re-stabilizing itself by ejecting part of the wave. That’s radiation.
+Now the inner wave pushes harder than the environment can contain --- just like a balloon losing air. The particle "leaks" energy, re-stabilizing itself by ejecting part of the wave. That's radiation.
 
 This model gives us a _reason_ for radioactive decay: instability caused by mismatched wave frequencies in a confined system.
 
@@ -175,11 +176,11 @@ So no --- Michelson-Morley does *not* disprove this theory. It never asked the r
 
 = Uses
 
-Just like the shift from the geocentric to the heliocentric model opened the door to better predictions and discoveries, this model could do the same — but for physics.
+Just like the shift from the geocentric to the heliocentric model opened the door to better predictions and discoveries, this model could do the same --- but for physics.
 
-If we understand how matter actually forms — not as a separate thing, but as a product of space itself — then we can start reverse-engineering the functionality of particles. Not just understanding the ones we know, but maybe even discovering new ones... or building them from scratch.
+If we understand how matter actually forms --- not as a separate thing, but as a product of space itself --- then we can start reverse-engineering the functionality of particles. Not just understanding the ones we know, but maybe even discovering new ones... or building them from scratch.
 
-Same way you can't write good code unless you know how the CPU works — you can't fully unlock physics unless you understand what matter really is.
+Same way you can't write good code unless you know how the CPU works --- you can't fully unlock physics unless you understand what matter really is.
 
 = Future Directions
 

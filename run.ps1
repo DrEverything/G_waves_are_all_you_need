@@ -1,4 +1,4 @@
-$paper_name = "g_waves"
+$paper_name = "connection"
 
-SumatraPDF "$paper_name.pdf"
-typst watch "$paper_name.typ"
+SumatraPDF "target/$paper_name.pdf"
+typst watch "$paper_name.typ" "target/$paper_name.pdf"
